@@ -1,0 +1,9 @@
+step 1 Create a Folder of projects
+step 2 install dependencies
+step 3 npm install init -y
+step 4 npm install express morgan dotenv mongoose nodemon --save
+step 5 create app.js file
+step 6 create .env file
+step 7 create product.json file 
+step 8 connect project with mongodb altas via link
+    MONGO DB:-   CONNECTION_URL="mongodb+srv://admin:admin@learnskills.ithnmqy.mongodb.net/eshop"

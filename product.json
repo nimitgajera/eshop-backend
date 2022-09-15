@@ -1,0 +1,23 @@
+[
+    {
+        "_id":{
+            "$oid":"5f15d8852ututu345"
+        },
+        "image":"https://link.org",
+        "brand":"MAC",
+        "price":"800000",
+        "rating":"null",
+        "numofReivews":"null",
+        "isfeatured":"false",
+        "name":"abc",
+        "description":"abc",
+        "category":{
+            "$oid":"1234"
+        },
+        "reviews":[
+            {
+                "avator":"https://abc.org"
+            }
+        ]
+    }
+]
