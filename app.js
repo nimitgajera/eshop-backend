@@ -7,10 +7,9 @@ const mongoose = require('mongoose');
 const bodyparser= require('body-parser');
 
 
-
 app.use(bodyparser.json());
 app.use(morgan("tiny"));
-app.use(cors());3
+app.use(cors());
 app.options("*",cors());
 
 mongoose.connect(process.env.CONNECTION_URL)
@@ -26,5 +25,8 @@ app.use(`/products`,productRoutes)
 
 const categoriesRoutes = require("./routes/categories");
 app.use(`/categories`,categoriesRoutes)
+
+const usersRoutes = require("./routes/users");
+app.use(`/users`,usersRoutes)
 
 app.listen(process.env.PORT,()=> console.log(`app listening onn port ${process.env.PORT}`))
