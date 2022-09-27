@@ -14,7 +14,7 @@ app.options("*",cors());
 // app.use(authJwt());
 
 mongoose.connect(process.env.CONNECTION_URL)
-    dbname:process.env.CONNECTION_URL
+    // dbname:process.env.CONNECTION_URL
 .then(()=>{
     console.log("Database connection is ready...")
 }).catch((err)=>{
